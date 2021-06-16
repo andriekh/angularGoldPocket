@@ -1,0 +1,11 @@
+<div class="cards-view"> 
+    <h3> Our Product </h3>
+    <div class="card-group">
+        <div class="card" *ngFor="let cardData of cardDatas">
+          <img class="card-img-top" src={{cardData.path}} alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{cardData.productName}}</h5>
+          </div>
+        </div>
+      </div>
+</div>
