@@ -1,0 +1,28 @@
+<div class="content">
+    <div class="row">
+        <div class="col-sm ">
+          <img class = "subs" src="../../../assets/subs.png" alt="">
+        </div>
+        <div class="col-sm" >
+          <h4> Why Mandiri Gold ? </h4>
+          <div class="grid-container">
+            <div class="grid-item" *ngFor="let service of serviceBenefits">
+                <mat-card>
+                    <h5>{{service.benefitName}}</h5>
+                    <p> {{service.description}}</p>
+                </mat-card>
+            </div>
+            <div class="grid-item" *ngFor="let product of productBenefits">
+                <mat-card>
+                    <h5> {{product.benefitName}}</h5>
+                    <p> {{ product.description }}</p>
+                </mat-card>
+            </div>
+        </div>
+          <div class="wrapper">
+            <h4 class = "register"> Lets Join us for free </h4>
+            <button mat-stroked-button class="button-register">Register</button>
+        </div>
+        </div>
+    </div>
+</div>

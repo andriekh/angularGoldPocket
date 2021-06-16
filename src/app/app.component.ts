@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template:  '<app-pages></app-pages>'
 })
 export class AppComponent {
-  title = 'angular-challeng';
+  title = 'challenge-angular';
 }

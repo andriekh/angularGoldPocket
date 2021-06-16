@@ -1,0 +1,74 @@
+.content {
+    background-color: white;
+    margin-top: 50px;
+    width: 100%;
+}
+
+div > .row {
+    background-color: black;
+    padding-top: 10px;
+}
+
+.col-sm {
+       background-color: white
+}
+
+div img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.grid-item {
+    padding: 5px;
+}
+.button-register {
+    top: 50%;
+    background-color: rgb(245, 168, 67);
+    width: 90%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.col-sm > h4 {
+    text-align: center;
+    padding-top: 120px;
+}
+
+
+h4 .register {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+  }
+
+  .grid-item h5 {
+      text-align: center;
+  }
+  .grid-item p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  ::ng-deep .mat-card{
+
+    border: 55px !important;
+    border-radius: 30px !important;
+    box-shadow: 20px black;
+    border: #000 !important;
+}
